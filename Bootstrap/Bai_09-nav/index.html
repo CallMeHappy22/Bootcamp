@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bai 02</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+      <h5>Align</h5>
+      <ul class="nav justify-content-center">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+      <nav class="nav">
+        <a id="home-tab" class="nav-link" href="#">Home</a>
+        <a id="product-tab" class="nav-link" href="#">Product</a>
+        <a id="contact-tab" class="nav-link" href="#">Contact</a>
+      </nav>
+      <h5>Tab</h5>
+      <nav class="nav nav-tabs">
+        <a id="home-tab" class="nav-link" data-bs-toggle="tab" href="#Home"
+          >Home</a
+        >
+        <a id="product-tab" class="nav-link" data-bs-toggle="tab" href="Product"
+          >Product</a
+        >
+        <a
+          id="contact-tab"
+          class="nav-link"
+          data-bs-toggle="tab"
+          href="#Contact"
+          >Contact</a
+        >
+      </nav>
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="Home">
+          <p>
+            Đừng che dấu tình yêu và sự dịu dàng của mình cho đến khi bạn lìa
+            đời. Hãy làm cuộc đời bạn tràn đầy sự ngọt ngào. Hãy nói những lời
+            thân thương khi bạn còn nghe được và tim bạn còn rung động. - Henry
+            Ward Beecher
+          </p>
+        </div>
+        <div class="tab-pane fade show active" id="Product">
+          <p>
+            Nếu khoảng cách giữa chúng ta là một ngàn bước chân, chỉ cần em đi
+            bước đầu tiên, anh sẽ đi về phía em nốt chín trăm chín mươi chín
+            bước còn lại… - Không thể quên em, Hoa Thanh Thần
+          </p>
+        </div>
+        <div class="tab-pane fade show active" id="Contact">
+          <p>
+            Một khi đã khắc cốt ghi tâm, cho dù bị phủ đầy bao nhiêu, chỉ cần
+            con tim vẫn còn đập, cho dù thế nào cũng không thể lãng quên. - Gió
+            mang ký ức thổi thành những cánh hoa, Diệp Lạc Vô Tâm
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Load jquery before load bootstarp-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

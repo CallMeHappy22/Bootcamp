@@ -1,0 +1,39 @@
+.container {
+    background-color: darkgrey;
+    color: white;
+}
+
+.row:first-child img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.row div:nth-child(2) {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* 
+.row div:nth-child(4) {
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+.row:nth-child(5) div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.row div h1 {
+    color: darkkhaki;
+}
+
+.row:last-child {
+    background-color: gray;
+    padding: 10px;
+}
+
+.row ul {
+    padding: 0;
+}

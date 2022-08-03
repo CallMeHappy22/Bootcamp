@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bai 02</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <form>
+            <h2>Register</h2>
+            <div class="row">
+              <div class="col">
+                <label>LastName</label>
+                <input
+                  type="text"
+                  required
+                  name=""
+                  class="form-control"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="col">
+                <label>FirstName</label>
+                <input
+                  type="text"
+                  required
+                  name=""
+                  class="form-control"
+                  placeholder="First Name"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input
+                type="email"
+                required
+                name=""
+                placeholder="Enter your email."
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input
+                type="password"
+                required
+                name=""
+                placeholder="Enter your password"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label>Addresss</label>
+              <select class="form-control" name="" id="">
+                <option value="">Ha Noi</option>
+                <option value="">TP HCM</option>
+                <option selected value="">Your Address</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Gender</label>
+              <div class="row" data-bs-toggle="btn-outline-secondary">
+                <div class="col">
+                  <label class="btn btn-outline-secondary"
+                    >Male <input type="radio" name="gender" value="Male"
+                  /></label>
+                </div>
+
+                <div class="col">
+                  <label class="btn btn-outline-secondary"
+                    >Female <input type="radio" name="gender" value="Female"
+                  /></label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" required />
+              <label>I am agree with any condition when using app</label>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-success" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--Load jquery before load bootstarp-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

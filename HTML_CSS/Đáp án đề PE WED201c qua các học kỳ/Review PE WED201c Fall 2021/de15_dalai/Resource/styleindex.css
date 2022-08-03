@@ -1,0 +1,36 @@
+.welcome{
+    text-align: center;
+    background-color: rgb(238, 159, 172);
+    padding-bottom: 10px;
+}
+.welcome button{
+    border-radius: 20px;
+}
+
+
+.image{
+    background-color: rgb(241, 163, 176);
+    padding-bottom: 20px;
+}
+.mycode{
+    background-color: #f7cacc;
+}
+.mycode .col-md-2{
+    background-color: white;
+    margin: 1%;
+    border-radius: 20px;
+    text-align: center;
+    /* padding: 20px; */
+    height: 400px;
+}
+
+.row:last-child{
+    background-color: #98c93c;
+    text-align: center;
+}
+@media only screen and (min-width:998px){
+    .mycode .col-md-2{
+        width: 23%;
+    }
+}
+

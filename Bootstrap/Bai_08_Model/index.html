@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bai 02</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <button class="btn btn-danger">Delete</button>
+        </div>
+        <div class="model fade" id="modal-delete">
+          <div class="modal-dialog">
+            <div class="model-content">
+              <div class="model-header">
+                <h4>Delete</h4>
+                <button type="button" class="close" data-dismiss="model">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="model-body">Are you sure you want to delete ?</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="model"
+                >
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-success">Ok</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Load jquery before load bootstarp-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

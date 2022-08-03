@@ -1,0 +1,38 @@
+.welcome{
+    text-align: center;
+    background-color: pink;
+    padding-bottom: 10px;
+}
+.welcome button{
+    border-radius: 20px;
+}
+.two-image{
+    background-color: pink;
+    padding-bottom: 20px;
+}
+.four-img{
+    background-color: #ffebec;
+}
+.four-img .col-md-2{
+    background-color: white;
+    margin: 1%;
+    border-radius: 20px;
+    text-align: center;
+    /* padding: 20px; */
+    height: 400px;
+    
+}
+@media only screen and (min-width:998px){
+    .four-img .col-md-2{
+        width: 23%;
+    }
+}
+   
+.row:last-child{
+    background-color: #98c93c;
+    text-align: center;
+}
+.row .col-md-8 img{
+    margin-left: 20%;
+}
+

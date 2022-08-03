@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.main{
+	width: 1000px;
+	height: 500px;	
+	text-align: center;
+	padding-top: 300px;
+	background-color: green;
+	margin: auto;
+}
+
+.btn1{
+	background-color: red;
+	color: wheat;
+	margin-bottom: 100px;
+}
+.btn-demo{
+	background-color: green;
+}
